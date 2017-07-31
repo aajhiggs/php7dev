@@ -3,6 +3,8 @@ ip: "192.168.7.7"
 memory: 1024
 cpus: 2
 
+# NOTE: This is for nginx only, we dont use this as we're booting apache. Read the notes in /etc/hosts on the main OSX host machine for info.
+
 authorize:
     - ~/.ssh/id_rsa.pub
     - ~/.ssh/id_dsa.pub
